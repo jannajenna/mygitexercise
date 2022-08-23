@@ -8,6 +8,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <nav class="mainnav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- section#about>(.text+(.figure>.figcaption))+section#projects>(article.project>(.image+(.details>.summary))) -->
+      <section id="about">
+        <div class="text"></div>
+        <div class="figure">
+          <div class="figcaption"></div>
+        </div>
+        <section id="projects">
+          <article class="project">
+            <div class="image"></div>
+            <div class="details">
+              <div class="summary"></div>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer></footer>
     <script src="script.js"></script>
   </body>
 </html>
